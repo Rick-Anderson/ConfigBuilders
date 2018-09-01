@@ -10,14 +10,18 @@ namespace MyConfigBuilders
 {
     public partial class About : Page
     {
-        public string Msg { get; set; }
+        public string ServiceID { get; set; }
         public string ServiceKey { get; set; }
+        public string ConString { get; set; }
+
 
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Msg = ConfigurationManager.AppSettings["ServiceID"];
+            ServiceID = ConfigurationManager.AppSettings["ServiceID"];
             ServiceKey = ConfigurationManager.AppSettings["ServiceKey"];
+            ConString = ConfigurationManager.AppSettings["Default"];
+
         }
     }
 }
