@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConfigBuilders", "MyConfigBuilders.csproj", "{BC9E4639-B826-45A8-8A22-F3E5F025E0E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConfigBuilders", "MyConfigBuilders\MyConfigBuilders.csproj", "{BC9E4639-B826-45A8-8A22-F3E5F025E0E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F6370DAD-7E50-49AC-916C-6D94815BBF23}
+		SolutionGuid = {3F1C4C56-F100-4571-ABEC-2E10CFEB4291}
 	EndGlobalSection
 EndGlobal
